@@ -35,7 +35,7 @@ body{
     left: 0;
     position: fixed;
     z-index: 1;
-    background-color: #111;
+    background-color: rgb(36, 35, 35);
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
@@ -69,7 +69,7 @@ body{
   border-radius: 10px;
   min-height: 50vh;
   border-radius: 10px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://3.bp.blogspot.com/-xb4Ej_RChRo/VL9k7ETwDbI/AAAAAAAAALc/qt2SdvuanZo/s1600/20150114_110535.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://3.bp.blogspot.com/-xb4Ej_RChRo/VL9k7ETwDbI/AAAAAAAAALc/qt2SdvuanZo/s1600/20150114_110535.jpg");
   height: 70vh;
   background-position:top;
   background-repeat: no-repeat;
