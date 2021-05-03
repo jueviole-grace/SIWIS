@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap');
 *{
     box-sizing: 0;
     margin: 0;
@@ -65,10 +66,8 @@ body{
 
 .hero-image{
   box-shadow: 6px 8px 12px .5px rgba(0, 0, 0, 0.6);
-  margin:20px 10px 0 10px;
-  border-radius: 10px;
+  margin-top: 20px;
   min-height: 50vh;
-  border-radius: 10px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://3.bp.blogspot.com/-xb4Ej_RChRo/VL9k7ETwDbI/AAAAAAAAALc/qt2SdvuanZo/s1600/20150114_110535.jpg");
   height: 70vh;
   background-position:top;
@@ -97,9 +96,11 @@ body{
   text-align:justify;
 }
 .skip{
+  font-family: Open Sans;
   margin-top: 20px;
-  background-color: rgb(36, 35, 35);
-  color: white;
+  background-color: white;
+  color: red;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
   padding: 14px 24px;
   text-align: center;
   text-decoration: none;
