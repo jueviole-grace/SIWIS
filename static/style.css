@@ -13,7 +13,6 @@ body{
     user-select: none;
 }
 .header{
-  /* background-color: red;  */
   z-index: 1;
   position: sticky;
   top: 0px;
