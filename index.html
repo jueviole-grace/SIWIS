@@ -4,79 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>    
+    <title>Home Page</title>    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-    <div class="header" id="header">
-        <div class="sideNav" id="sideNav">
-            <a href="javascript:void(0)" class="closebtn" id="closebtn" onclick="closeNav()">&times</a>
-            <a href="/clubs.html">Clubs</a>
-            <a href="/events.html">Events</a>
-            <a href="/notes.html">Share Notes</a>
-            <a href="/feed.html">Social Feed</a>
-            <a href="/discuss.html">Discussion</a>
-        </div>
-        <span id="openbtn" style="font-size: 30px;cursor: pointer; user-select: none; margin-top: 10px; margin-left: 10px;" onclick="openNav()">&#9776</span>
-        <h1>SIWIS-Student Info Website for IIIT Surat</h1>
-        <p></p>
-    </div>
-    <div class="main">
-        <div class="hero-image" id="hero-image">
-            <div class="hero-text" id="hero-text">
-                <h1>SIWIS</h1>
-                <p></p>
-                <a href="#content" class="skip">Skip to content</a>
-            </div>
-        </div>
+    <div class="header" id="header"></div>
     <div class="content" id="content">
-        <div class="content-main">
-            <div class="content-main-info" id="about">
-                <h1>About</h1>
-                <p></p>
-            </div>
-            <div class="content-main-info" id="clubs">
-                <h1><a href="/clubs.html">Clubs</a></h1>
-                <p></p>
-                <a href="/clubs.html"><button class="btn btn-outline-dark info-btn">Clubs &#10137;</button></a>
-            </div>
-            <div class="content-main-info" id="events">
-                <h1><a href="/events.html">Events</a></h1>
-                <p></p>
-                <a href="/events.html"><button class="btn btn-outline-dark info-btn">Events &#10137;</button></a>
-            </div>
-            <div class="content-main-info" id="notes">
-                <h1><a href="/notes.html">Share your Notes</a></h1>
-                <p></p>
-                <a href="notes.html"><button class="btn btn-outline-dark info-btn">Share Notes &#10137;</button></a>
-            </div>
-            <div class="content-main-info" id="feed">
-                <h1><a href="/feed.html">Social Feed</a></h1>
-                <p></p>
-                <a href="/feed.html"><button class="btn btn-outline-dark info-btn">Social Feed &#10137;</button></a>
-            </div>
-            <div class="content-main-info" id="discuss">
-                <h1><a href="/discuss.html">Discussion</a></h1>
-                <p></p>
-                <a href="/discuss.html"><button class="btn btn-outline-dark info-btn">Discussion &#10137;</button></a>
+        <div class="hero-sec" id="hero-sec">
+            <div class="hero-img" id="hero-img"></div>
+            <div class="hero-txt" id="hero-txt">
+                <h1>SIWIS</h1>
+                <p>Student Info Website for IIIT Surat</p>
             </div>
         </div>
-        <div class="content-index">
-            <div class="content-index-links">
-                <h1>On Page Navigation...</h1>
-                <h2><a href="#clubs">Clubs...</a></h2>
-                <h2><a href="#events">Events...</a></h2>
-                <h2><a href="#notes">Notes...</a></h2>
-                <h2><a href="#feed">Social Feed...<a></h2>
-                <h2><a href="#discuss">Discussion...</a></h2>
+        <div class="container-content">
+            <div class="features" id="features">
+                <h1>Features</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eligendi ipsa recusandae sit, magnam harum? Nulla, saepe vel incidunt sequi nobis iure ex provident architecto. Officiis explicabo nesciunt autem fugit?</p>
             </div>
+            <div class="links">
+                <div class="link-container">
+                    <div class="link-container-img1">
+                        <a href="/clubs.html">
+                            <img src="https://collegecliffs.com/wp-content/uploads/2020/10/college-clubs-concept-5.png" alt="Clubs">
+                            <div class="text-container">
+                                <div class="text-holder">Clubs</div>
+                            </div>
+                        </a>
+                    </div>
+                    </div>
+                <div class="link-container">
+                    <div class="link-container-img2">
+                        <a href="/events.html">
+                            <img src="https://www.andromo.com/blog/wp-content/uploads/2020/12/EVENTS-GRAPHIC_web.jpg" alt="Events">
+                        </a>
+                        <div class="text-container">
+                            <div class="text-holder">Events</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="link-container">
+                    <div class="link-container-img3">
+                        <a href="/notes.html">
+                            <img src="https://clickup.com/blog/wp-content/uploads/2020/01/note-taking.png" alt="Notes">
+                        </a>
+                        <div class="text-container">
+                            <div class="text-holder">Notes</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="links1">
+                <div class="link-container1" id="link-container1">
+                    <div class="link-container-img4">
+                        <a href="/feed.html">
+                            <img src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/09/outstanding-social-media-campaigns-5f60d3e4bb13b.png" alt="Social-Feed">
+                        </a>
+                        <div class="text-container">
+                            <div class="text-holder">Social Feed</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="link-container1">
+                    <div class="link-container-img5">
+                        <a href="/feed.html">
+                            <img src="https://elearningindustry.com/wp-content/uploads/2020/02/online-discussion-forums-engage-your-learners.jpg" alt="Discuss">
+                        </a>
+                        <div class="text-container">
+                            <div class="text-holder">Discussion</div>
+                        </div>
+                    </div>
+                </div>
         </div>
-            </div>
-    <div class="footer">
-        <div class="footer-text"></div>
-    <a href="#hero-image">Back to top</a>
-    </div>
+        </div>
     </div>
     <script src="static/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
