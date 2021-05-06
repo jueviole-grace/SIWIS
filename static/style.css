@@ -61,7 +61,7 @@ body{
   margin-top: 2vh;
   padding: 2vh;
   font-size: 3vh;
-  text-align: justify;
+  text-align: left;
   color: #555;
 }
 .updates-container{
@@ -94,7 +94,7 @@ body{
   color: black;
 }
 .updates h4 a:hover{
-  color:blue;
+  color:darkred;
 }
 .links{
   display:flex;  
@@ -217,15 +217,21 @@ height: 37vh;
   }
   .hero-txt p{
     font-size: 2vh;
+  text-align: center;
+
   }
   .container-content{
     margin: 0;
   }
   .features h1{
     font-size: 6vh;
+  text-align: center;
+
   }
   .features p{
     font-size: 2vh;
+  text-align: justify;
+
   }
  .updates-container h3{
    font-size: 2vh;
